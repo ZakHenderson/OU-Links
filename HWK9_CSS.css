@@ -1,0 +1,86 @@
+body {
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+#Header {
+    text-align: center;
+}
+
+    #Header h1 {
+        font-size: 30px;
+        color: white;
+    }
+
+        #Header h1 .highlight {
+            background-color: mediumpurple;
+            text-decoration: underline;
+            box-shadow: black -10px 15px;
+        }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+}
+.box {
+    width: 25%;
+    height: 500px;
+    
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 1%;
+}
+    .box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+.pink-box {
+    background-color: pink;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+    .pink-box:hover {
+        background-color: hotpink;
+        transform: scale(1.1);
+    }
+.purple-box {
+    background-color: mediumpurple;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+    .purple-box:hover {
+        background-color: darkviolet;
+        transform: scale(1.1);
+    }
+.purple-box-links {
+    background-color: mediumpurple;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+    .purple-box-links:hover {
+        background-color: blueviolet;
+        transform: scale(1.1);
+    }
+.box a {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    color: black; 
+}
+
+.box-links-container {
+    background: rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    border-radius: 20px;
+}
